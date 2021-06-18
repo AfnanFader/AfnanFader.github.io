@@ -24,7 +24,7 @@
 						</div> -->
 						<div class="content">
 							<div class="inner">
-								<h1>Afnan Fader</h1>
+								<h1>Afnan Bin Fader</h1>
 								<p>A 23 year old Malaysian fresh graduate from University of Malaya exploring life in the tech industry.</p>
 								<p>Link to <a href="https://github.com/AfnanFader">Github</a> is here</p>
 								<p>Below are the some of the development portfolios that are highlighted.</p>			
@@ -34,10 +34,10 @@
 							<ul>
 								<li><a href="#CarExpert">Car Expert</a></li>
 								<li><a href="#Smarthon">Smarthon</a></li>
-								<!-- <li><a href="#MyHealth2">MyHealth 2.0</a></li> -->
-								<!-- <li><a href="#ToolsGuide">Tools Guide</a></li> -->
 								<li><a href="#PetDopt">PetDopt</a></li>
-								<!-- <li><a href="#UniversityCourses">University Courses</a></li> -->
+								<li><a href="#CariMuka">CariMuka</a></li>
+								<!-- <li><a href="#SARDrone">S&R Drone</a></li> -->
+								<li><a href="#LabRover">Lab Rover</a></li>
 								<!-- <li><a href="#contact">Contact</a></li> -->
 								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
@@ -103,51 +103,58 @@
 								<span class="image main"><img src="images/smarthon_navi.gif" alt="" /></span>
 							</article>
 
-						<!-- MyHealth2 -->
-							<article id="MyHealth2">
-								<h1 class="major">My Health 2.0</h1>
-								<span class="image main"><img src="images/health.png" alt="" /></span>
-								<p>MyHealth2.0 is a mobile application system that promotes self-healthcare and for the public to be more aware of the health issues 
-									so that they do not fully rely on medical institutions to take care of their healthcare.</p>
-								<p>The end users of this app would be the public 'rakyat' and government health officials. Both user type are integrated in one single mobile application.</p>
-								<p>The app is built using Flutter with Firebase. The logo and UI/UX of the app is designed by myself. Code is maintained at Github.</p>
-								<p>The mobile app has been successfully deployed to Google Play in production mode.</p>
-
-								<h2 class="major">User:</h2>
-								<p>Users are the general public or the 'rakyat' who want to manage their own healthcare thorugh assistance of this mobile app. Below are the summary of what users can do:</p>
-
-								<h3 class="inner">Login, View News, Change password, Edit Profile and health data:</h3>
-								<span class="image main"><img src="images/healthuser1.gif" alt="" /></span>
-
-								<h3 class="inner">Food Diary, Calorie Management, Search and Bookmark Hospital :</h3>
-								<span class="image main"><img src="images/healthuser2.gif" alt="" /></span>
-
-								<h3 class="inner">Appointment Management, Medical Prescription Reminder:</h3>
-								<span class="image main"><img src="images/healthuser3.gif" alt="" /></span>
-								
-
-								<h2 class="major">Admin:</h2>
-
-								<p>Admins are the government health officials who manages the content of this application for the users. Below are the summary of what admins can do:</p>
-								
-								<h3 class="inner">News/Announcement Management, Clinic/Hospital Management:</h3>
-								<span class="image main"><img src="images/healthadmin1.gif" alt="" /></span>
-
-								<h3 class="inner">Food Management, Admin Management:</h3>
-								<span class="image main"><img src="images/healthadmin2.gif" alt="" /></span>
-
+						<!-- Lab Rover -->
+							<article id="LabRover">
+								<h1 class="major">Lab Rover</h1>
+								<span class="image main"><img src="images/rover_main_2.jpeg" alt="" /></span>
+								<p>This is a collaboration project with a final year engineering student, as I was in charge in coding the rover system and communication between the server and the rover. The purpose of this project 
+									is to develop a multi axis viewing system for purpose of laboratory exercises. As distant learning or online learning has become prominent in a world were global education improved throughout the years. 
+									This project is done to improve the laboratory exercises for undergraduate engineering students.</p>
+								<p>As the current method is based on watching laboratory videos and using a set of given data to be processed into the laboratory report. 
+									This method does not provide same atmosphere as the physical method.</p>
+								<span class="image main"><img src="images/rover_brain.jpg" alt="" /></span>
+								<p>
+									The rover main parts are comprises of two Arduino Uno and a Raspberry Pi 3 Model B as the main unit. Both Arduino communicate with the Pi with serial communication via the USB. Both Arduino has it own functions, 
+									such as controlling the movement of the motor, linear actuator, stepper motor and the monitoring of the batttery. All the data is transfered and recieve by the Pi with a bi-directional serial communication. The Pi module 
+									has a radio module to recieve movement commands from the server and stream the video feed from the camera via Wi-Fi. The rover is also able to be controlled via Wi-Fi.
+								</p>
+								<p>Curently, the project is still ongoing and with future plans of adding autonomy to it. Some of the future plans are the following:</p>
+								<p>
+									<b>1) Replacing the Raspberry Pi with Jetson Nano for accelerated machine learning.</b><br><br>
+									<b>2) Adding multiple camera for collision detection.</b><br><br>
+									<b>3) Use visual odometry and machine learning to improve the rover autonomy capability.</b><br><br>
+									<b>4) Deploy a contact charging/Wireless charging station for the rover.</b><br><br>
+								</p>
 							</article>
 
-						<!-- ToolsGuide -->
-							<article id="ToolsGuide">
-								<h1 class="major">Tools Guide</h1>
-								<p>This project is the 2nd freelance project and it is developed only by me. 
-									The client is a friend of mine who just want a mobile application that can store details of tools most commonly used in an aircraft hangar</p>
-								<span class="image main"><img src="images/toolsguide1.png" alt="" /></span>
-								<p>This app has a public interface with no accounts needed and an admin page where admins can create, update, delete tools</p>
-								<span class="image main"><img src="images/toolsguide2.gif" alt="" /></span>
-								<p>The app is built using Flutter with Firebase. The logo and UI/UX of the app is designed by myself. Code is maintained at Github.</p>
-								<p>The delivery of this app to the client is only through an APK file and not deployed to Google Play.</p>
+						<!-- Lab Rover -->
+							<article id="CariMuka">
+								<h1 class="major">CariMuka</h1>
+								<span class="image main"><img src="images/CariMuka-01.png" alt="" /></span>
+								<p>CariMuka is a product of Surveillance Video Visual Verification (SV3). CariMuka is developed specifically
+									for Surveillance and forensic purpose. The unique feature of CariMuka, which enables detection of a person
+									based on user query, makes it an outstanding product for monitoring crime-related events.
+								</p>
+								<p>The system was released on 18 December 2019. Link to <a href="https://www.facebook.com/CyberSecurityMalaysia/videos/603483103743180/?__so__=channel_tab&__rv__=all_videos_card&redirect=false">livestream</a>.</p>
+								<p>CariMuka was one of the system that I was developing during my internship. This was a team effort with my fellow intern colleague at that time.
+									The challenges that we faced during the initial testing was that most CCTV footage have poor video quality and some of the method that we used before has limited detection range and
+									 unable to detect faces at lower resolution since majority of CCTV footage was only shot at HD or 720p with compressed quality and different framerates. The other problem was that latency, as the system 
+									 needed to detect and recognize faces in realtime at minimum 15 frames per-second.
+								</p>
+								<span class="image main"><img src="images/SLIDE_KKDF1.PNG" alt="" /></span>
+								<p>The above picture is one of the output of the prototype, the face detection module was able to detect a face as far as 10 meter at HD quality and normal lighthing condition. To reduce the detection per frame, we implemented 
+									a tracking algorithm that uses kalman filter to compare the the new detection and the old detection to determine the detection indentification number of the face detected. The final process was the face recognition module, where at
+									 that time we use FaceNet for the prototype.
+								</p>
+							</article>
+						
+						<!-- Lab Rover -->
+							<article id="SARDrone">
+								<h1 class="major">SAR Drone</h1>
+								<span class="image main"><img src="images/drone_main.jpg" alt="" /></span>
+								<p>
+
+								</p>
 							</article>
 
 						<!-- PetDopt -->
@@ -177,23 +184,6 @@
 
 								<p>As for the lecturers review during the project presentation, the lecturer is most pleased and even suggested to try and sell this application.</p>
 
-							</article>
-
-						<!-- UniversityCourses -->
-							<article id="UniversityCourses">
-								<h1 class="major">University Courses</h1>
-								<span class="image main"><img src="images/um.png" alt="" /></span>
-								<p>This section depicts the courses taken along with their tools used. I have experience with using all the tools listed below.</p>
-								<h3 class="inner">Courses and the tools used:</h3>
-								<br>
-								<p>
-									<b>Data Visualization:</b> Tableau <br><br>
-									<b>Data Mining:</b> Weka, Orange, Jupyter Notebook <br><br>
-									<b>Business Analytics and Intelligence:</b> PowerBI, Microsoft Azure, Microsoft Azure Classic <br><br>
-									<b>Soft Computing:</b> Matlab <br><br>
-									<b>Open Source Programming:</b> Vanilla PHP, HTML, CSS <br><br>
-									<b>Intro to Data Science:</b> RStudio <br><br>
-								</p>
 							</article>
 
 
