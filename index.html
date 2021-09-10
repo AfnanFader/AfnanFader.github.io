@@ -34,9 +34,9 @@
 							<ul>
 								<li><a href="#CarExpert">Car Expert</a></li>
 								<li><a href="#Smarthon">Smarthon</a></li>
-								<li><a href="#PetDopt">PetDopt</a></li>
+								<!-- <li><a href="#PetDopt">PetDopt</a></li> -->
 								<li><a href="#CariMuka">CariMuka</a></li>
-								<!-- <li><a href="#SARDrone">S&R Drone</a></li> -->
+								<li><a href="#SARDrone">SAR Drone</a></li>
 								<li><a href="#LabRover">Lab Rover</a></li>
 								<!-- <li><a href="#contact">Contact</a></li> -->
 								<!-- <li><a href="#elements">Elements</a></li> -->
@@ -152,8 +152,21 @@
 							<article id="SARDrone">
 								<h1 class="major">SAR Drone</h1>
 								<span class="image main"><img src="images/drone_main.jpg" alt="" /></span>
+								<p>The Search and Rescue Drone is my final year project, the project is funded by the Impact Oriented Interdisciplinary Research Grant (IIRG) and its purpose was to propose a low cost autonomous
+									drone that can be deployed for Search and Rescue Operation (SAR). Normally a SAR Operation budget is very high depending on its severity, and sending a drone can reduce the cost, time of deployment and manpower
+									required. The drone is equipped with camera and able to run computer vision task, in this case person detection. This is a two man project, where I am in charge of the asssembly and programming of the drone and the other
+									 person was responsible for the computer vision part.
+								</p>
 								<p>
-
+									The reason we chose to do a custom build drone is due to its flexiblity to be equipped with multiple configurations of hardware. We used an open-source flight controller and a modified version of
+									the ArduPilot firmware. The drone is paired with a companion PC (Raspberry Pi) to increase its computation capability in its autonomous ability. The drone is equpped with a 720p camera at 30fps which is
+									sufficient enough for person detection at 10 meters depending on the lighting condition. The drone is communicated through WiFi or Radio depending on the range, but the video feed
+									 is transmitted mainly through the Wi-Fi for better clarity.
+								</p>
+								<span class="image main"><img src="images/dronevid.gif" alt="" /></span>
+								<p>
+									The drone is monitored through a custom Ground Control Software (GCS) and it is able to do its mission autonomously. The GCS is also programmed with
+									 a manual control fucntion if the drone ever to show any errors. However due to COVID-19 restriction we were not able to conduct a full testing on the ariel detection functions.
 								</p>
 							</article>
 
